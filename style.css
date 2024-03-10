@@ -1,5 +1,31 @@
 body {
   width: 100%;
   height: 100%;
-  margin: 0;
+  background-color: bisque;
+  margin: auto;
+  text-align: center;
+}
+/*centre and style*/
+div {
+  margin: auto;
+  padding: 10px;
+  background-color: rebeccapurple;
+  text-align: center;
+}
+/*image caption*/
+#featured-caption {
+  font-size: 14px;
+  text-align: center;
+}
+/*details section*/
+#details div {
+  float: left;
+}
+/*bottom page*/
+.bottom-divs {
+  width: 25%;
+  margin: auto;
+  text-align: center;
+  background-color: bisque;
+  display: inline-block;
 }
